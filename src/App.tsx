@@ -6,6 +6,8 @@ function App() {
     <>
       <div className="header">
         <Header/>
+      </div>
+      <div className="main">
         <MenuOptions/>
       </div>
     </>

@@ -10,12 +10,12 @@ export function Header() {
                             Notes App
                         </Heading>
                         <Text as='em'>
-                            A simple and functional notes app for all your notes.
+                            A simple and functional notes app for all your annotations.
                         </Text>
                     </Flex>
                 </Box>
             </Center>
-            <Divider padding='7'/>
+            <Divider padding='7' width='100'/>
         </>
     )
 }

@@ -1,5 +1,6 @@
 import { Button, MenuItem, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from '@chakra-ui/react'
 import React from 'react'
+import { NotesForm } from './NotesForm'
 export function OpenModal() {
     const { isOpen, onOpen, onClose} = useDisclosure()
     return(
@@ -21,7 +22,7 @@ export function OpenModal() {
                 <ModalHeader>Create a note</ModalHeader>
                 <ModalCloseButton/>
                 <ModalBody>
-                    {/* colocar form aqui */}
+                    <NotesForm/>
                 </ModalBody>
 
                 <ModalFooter>
